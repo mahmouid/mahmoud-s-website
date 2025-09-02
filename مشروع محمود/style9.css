@@ -1,0 +1,45 @@
+.one{color: white;
+background-color: black;
+text-align: center;
+}
+.two{
+text-align: center;
+}
+.three{
+    text-align: center;
+}
+.four{
+    text-align: center;
+}
+img{
+    width: 100px;
+    margin-left:20% ;
+ animation: move 3s ease infinite alternate;
+
+}
+.five{
+    display: flex;
+}
+.six{
+    display: flex;
+}
+.seven{
+    display: flex;
+}
+p{
+    background: linear-gradient(rgba(44, 228, 11, 0.8), rgb(45, 121, 59), rgb(214, 245, 56));
+    width: 300px;
+   
+}
+@keyframes move{
+from{transform: translate(1px) rotate(-45deg);
+}
+to{
+    transform: translate(200px) rotate(45deg);
+}
+}
+@media (max-width:768px ){
+  .are{
+    display: flex;
+  }
+}
